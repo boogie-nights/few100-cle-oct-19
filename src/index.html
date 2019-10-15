@@ -4,15 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <title>Front End Web 100</title>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
 </head>
 
 <body>
-    <header>
+    <header class="container-fluid jumbotron">
         <h1>Front End Web 100 Starter</h1>
         <h2>Progressive ITU</h2>
     </header>
-    <main>
-        
+    <main class="container">
+        <div>
+            <div class="form-group">
+                <label for="number1">Number 1</label>
+                <input class="form-control"
+                       name="number1"
+                       id="number1"
+                       type="number">
+            </div>
+            <div class="form-group">
+                <label for="number2">Number 2</label>
+                <input class="form-control"
+                       name="number2"
+                       id="number2"
+                       type="number">
+            </div>
+            <input type="button"
+                   class="btn btn-primary"
+                   value="Multiply!"
+                   id="multiply">
+            <h3 class="alert alert-info">
+                <span id="answer">Answer goes here</span>
+            </h3>
+        </div>
     </main>
 </body>
 
