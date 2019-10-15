@@ -1,0 +1,41 @@
+{
+  "name": "learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode=development",
+    "build": "webpack --mode=production",
+    "test": "karma start --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-loader": "^8.0.0-beta.6",
+    "css-loader": "^2.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jasmine-core": "^3.3.0",
+    "karma": "^3.1.4",
+    "karma-awesome-reporter": "^1.1.2",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^2.0.1",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-typescript": "^4.0.0",
+    "karma-webpack": "^4.0.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "null-loader": "^0.1.1",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.3.3",
+    "tslint": "^5.19.0",
+    "typescript": "^3.2.2",
+    "webpack": "^4.28.1",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "@types/jasmine": "^3.3.5"
+  }
+}
